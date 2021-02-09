@@ -42,7 +42,7 @@ int main(){
 		cout << "\n";
 	}
 		for(int i=0;i<nA;i++)  delete []C[i];
-		delete []C;
+		 delete []C;
 
 	return 0;
 }
